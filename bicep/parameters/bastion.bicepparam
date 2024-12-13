@@ -11,6 +11,6 @@ param subnetPrefix = '10.0.10.0/26'
 param spokeNetworkName = 'vnet-mcwfy25q2g3110-spoke'  // ChangeMe（スポークVNETの名前を指定）
 
 // Bastion Host の名前
-param bastionName = 'bas-mcwfy25q2g3115'  // ChangeMe（末尾の数字を変える）
+param bastionName = 'bas-mcwfy25q2g3110'  // ChangeMe（末尾の数字を変える）
 
 param location = 'westus'
