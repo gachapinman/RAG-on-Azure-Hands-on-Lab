@@ -1,7 +1,7 @@
 using '../templates/bastion.bicep'
 
 // Bastion を展開する仮想ネットワーク (Hub)
-param vnetName = 'vnet-hub-mcwfy25q2e1'  // ChangeMe（ハブVNETの名前を指定）
+param vnetName = 'vnet-mcwfy25q2e1-hub'  // ChangeMe（ハブVNETの名前を指定）
 param addressPrefix = '10.0.0.0/16'
 
 // サブネット
